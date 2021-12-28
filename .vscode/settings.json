@@ -14,5 +14,6 @@
     "statusBarItem.remoteBackground": "#da90e9",
     "statusBarItem.remoteForeground": "#15202b"
   },
-  "peacock.color": "#da90e9"
+  "peacock.color": "#da90e9",
+  "angular.enable-strict-mode-prompt": false
 }
