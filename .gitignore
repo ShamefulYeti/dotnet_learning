@@ -454,3 +454,7 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 DatingApp/API/datingapp.db
 appsettings.json
+StudentAssets/
+StudentAssets.zip
+ssl/
+ssl/
