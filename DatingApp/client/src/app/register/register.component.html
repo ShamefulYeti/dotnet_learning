@@ -1,0 +1,35 @@
+<form #registerForm="ngForm" (ngSubmit)="register()" autocomplete="off">
+  <h2 class="text-center text-primary">Sign Up Form</h2>
+  <hr />
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input
+      type="text"
+      class="form-control"
+      id="username"
+      name="username"
+      [(ngModel)]="model.username"
+      placeholder="Username"
+    />
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input
+      type="password"
+      class="form-control"
+      id="password"
+      name="password"
+      [(ngModel)]="model.password"
+      placeholder="Password"
+    />
+    <small id="passwordHelpText" class="form-text text-muted">
+      Please use a secure password.
+    </small>
+  </div>
+  <div id="registerBtn" class="form-group">
+    <button class="btn btn-secondary mr-2" type="button" (click)="cancel()">
+      Cancel
+    </button>
+    <button class="btn btn-success mr-2" type="submit">Register</button>
+  </div>
+</form>
